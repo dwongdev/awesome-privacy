@@ -4329,7 +4329,16 @@ categories:
 
     - name: IDEs
       alternativeTo: ['visual studio code', 'intellij idea', 'eclipse', 'pycharm', 'atom']
-      services: []
+      services:
+      - name: VSCodium
+        url: https://vscodium.com/
+        icon: https://avatars.githubusercontent.com/u/40327449?s=200&v=4
+        github: VSCodium/vscodium
+        openSource: true
+        description: |
+          Free and open source binaries of VS Code, built without Microsoft branding
+          and with community-driven defaults. Extension compatibility can differ from
+          Microsoft's official VS Code build.
 
     - name: Terminal Emulators
       alternativeTo: ['putty', 'iterm2', 'gnome terminal', 'hyper', 'powershell']
