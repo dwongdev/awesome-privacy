@@ -83,6 +83,7 @@ categories:
 
       - name: ProtonPass
         url: https://proton.me/pass
+        github: protonpass/android-pass
         openSource: true
         tosdrId: 491
         androidApp: proton.android.pass
@@ -96,6 +97,7 @@ categories:
 
       - name: Pass
         url: https://www.passwordstore.org/
+        git: https://git.zx2c4.com/password-store
         icon: https://www.zx2c4.com/favicon.ico
         description: The Standard Unix Password Manager
         openSource: true
@@ -224,6 +226,7 @@ categories:
 
       - name: Authenticator GNOME
         url: https://gitlab.gnome.org/World/Authenticator
+        git: https://gitlab.gnome.org/World/Authenticator
         icon: https://gitlab.gnome.org/World/Authenticator/-/avatar?width=48
         openSource: true
         followWith: Linux
@@ -400,6 +403,7 @@ categories:
       - name: LibreWolf
         icon: https://librewolf.net/icon.svg
         url: https://librewolf.net
+        codeberg: librewolf/source
         openSource: true
         tosdrId: 6389
         description: |
@@ -421,6 +425,7 @@ categories:
 
       - name: Firefox
         url: https://www.firefox.com/
+        git: https://hg.mozilla.org/mozilla-central/
         icon: https://www.mozilla.org/media/protocol/img/logos/firefox/logo.fedb52c912d6.svg
         openSource: true
         tosdrId: 188
@@ -436,6 +441,7 @@ categories:
 
       - name: Tor Browser
         url: https://www.torproject.org/
+        git: https://gitlab.torproject.org/tpo/applications/tor-browser
         icon: https://www.torproject.org/static/images/favicon/favicon.ico
         openSource: true
         tosdrId: 2845
@@ -736,6 +742,7 @@ categories:
       services:
       - name: Briar
         url: https://briarproject.org
+        git: https://code.briarproject.org/briar/briar
         icon: https://briarproject.org/img/briar_logo_circle.png
         androidApp: org.briarproject.briar.android
         openSource: true
@@ -769,6 +776,7 @@ categories:
 
       - name: Tox & qTox client
         url: https://tox.chat
+        github: TokTok/qTox
         icon: https://tox.chat/theme/img/favicon.ico
         openSource: true
         subreddit: projecttox
@@ -925,6 +933,7 @@ categories:
       services:
       - name: Mozilla Thunderbird
         url: https://www.thunderbird.net
+        git: https://hg.mozilla.org/comm-central
         icon: https://www.thunderbird.net/media/img/thunderbird/ios-icon-180.png
         subreddit: Thunderbird
         openSource: true
@@ -1032,6 +1041,7 @@ categories:
 
       - name: SimpleLogin
         url: https://simplelogin.io
+        github: simple-login/app
         openSource: true
         icon: https://simplelogin.io/favicon.ico
         tosdrId: 2552
@@ -1067,6 +1077,7 @@ categories:
       - name: ProtonMail
         followWith: Professional plan or higher
         url: https://protonmail.com/pricing
+        github: ProtonMail/WebClients
         icon: https://proton.me/favicons/android-chrome-192x192.png
         tosdrId: 491
         openSource: true
@@ -1182,6 +1193,7 @@ categories:
 
       - name: Jmp.chat
         url: https://jmp.chat/
+        git: https://gitlab.com/ossguy/jmp-register
         icon: https://jmp.chat/static/jmp.svg
         androidApp: com.cheogram.android.playstore
         description: |
@@ -1192,6 +1204,7 @@ categories:
 
       - name: MoneroSMS
         url: https://monerosms.com
+        github: EgosOwn/monerosms-client
         icon: https://i.ibb.co/Dgwr4Z0/monero-sms.png
         description: |
           Anonymous SMS service able to activate accounts. Accessible over web, CLI, or
@@ -1402,6 +1415,7 @@ categories:
 
       - name: LocalCDN
         url: https://www.localcdn.org/
+        codeberg: nobody/LocalCDN
         icon: https://codeberg.org/repo-avatars/5014-6cc14ee9c85003bda3adb1d71762c306
         openSource: true
         description: |
@@ -1410,6 +1424,7 @@ categories:
 
       - name: Decentraleyes
         url: https://decentraleyes.org
+        git: https://git.synz.io/Synzvato/decentraleyes
         icon: https://addons.mozilla.org/user-media/addon_icons/521/521554-64.png
         openSource: true
         description: |
@@ -1491,6 +1506,7 @@ categories:
 
       - name: AmIUnique Timeline
         url: https://amiunique.org/timeline
+        github: plaperdr/amiunique-webextension-firefox
         icon: https://amiunique.org/favicon.ico
         tosdrId: 4202
         description: >
@@ -1586,6 +1602,7 @@ categories:
 
       - name: Exodus
         url: https://exodus-privacy.eu.org/en/page/what/#android-app
+        github: Exodus-Privacy/exodus-android-app
         icon: https://exodus-privacy.eu.org/img/favicons/apple-touch-icon.png
         tosdrId: 3843
         androidApp: org.eu.exodus_privacy.exodusprivacy
@@ -1615,6 +1632,7 @@ categories:
 
       - name: SuperFreezZ
         url: https://superfreezz.gitlab.io/
+        git: https://gitlab.com/SuperFreezZ/SuperFreezZ
         icon: https://f-droid.org/repo/icons-640/superfreeze.tool.android.1000.png
         description: |
           Makes it possible to entirely freeze all background activities on a per-app basis.
@@ -1693,6 +1711,7 @@ categories:
 
       - name: Greentooth
         url: https://gitlab.com/nbergman/greentooth
+        git: https://gitlab.com/nbergman/greentooth
         icon: https://f-droid.org/repo/com.smilla.greentooth/en-US/icon_8WaREJ2f7uFLdL9QGDL4xSqsIRB7wgdwv9BY_ET0WEg=.png
         description: |
           Auto-disable Bluetooth, then it is not being used. Saves battery, and prevent some security risks.
@@ -1754,6 +1773,7 @@ categories:
 
       - name: F-Droid
         url: https://f-droid.org/
+        git: https://gitlab.com/fdroid/fdroidclient
         openSource: true
         tosdrId: 2182
         icon: https://f-droid.org/assets/apple-touch-icon_ypJwtCrcixeH_qV6LdcMYk1anFIR9o-_ufR__1wNdJY=.png
@@ -1811,6 +1831,7 @@ categories:
 
         - name: Am I Unique?
           url: https://amiunique.org/fingerprint
+          github: DIVERSIFY-project/amiunique
           icon: https://amiunique.org/favicon.ico
           tosdrId: 4202
           description: |
@@ -1865,6 +1886,7 @@ categories:
 
         - name: Blocked.org
           url: https://www.blocked.org.uk
+          github: OpenRightsGroup/blocked-org-uk
           icon: https://www.blocked.org.uk/assets/images/blocked/socialmedia/blocked_result.jpg
           description: |
             Checks if a given website is blocked by filters applied by your mobile and broadband Internet Service Providers (ISP).
@@ -2151,6 +2173,7 @@ categories:
 
       - name: I2P
         url: https://geti2p.net
+        git: https://i2pgit.org/I2P_Developers/i2p.i2p
         icon: https://geti2p.net/_static/favicon.ico
         openSource: true
         description: |
@@ -2224,6 +2247,7 @@ categories:
 
       - name: Privoxy
         url: https://www.privoxy.org
+        git: https://www.privoxy.org/gitweb/?p=privoxy.git;a=summary
         icon: https://www.privoxy.org/images/privoxy.png
         openSource: true
         description: |
@@ -2263,6 +2287,7 @@ categories:
 
       - name: AdGuard
         url: https://adguard.com/en/adguard-dns/overview.html
+        github: AdguardTeam/AdGuardDNS
         icon: https://cdn.adguard.info/website/adguard-dns.io/favicon.svg
         tosdrId: 2776
         description: |
@@ -2271,6 +2296,7 @@ categories:
 
       - name: NextDNS
         url: https://nextdns.io
+        github: nextdns/nextdns
         icon: https://nextdns.io/favicon.ico
         tosdrId: 1959
         description: |
@@ -2433,6 +2459,7 @@ categories:
 
       - name: Lockdown
         url: https://lockdownprivacy.com
+        github: confirmedcode/Lockdown-iOS
         openSource: false
         followWith: iOS
         description: |
@@ -2490,6 +2517,7 @@ categories:
         openSource: true
         followWith: Linux
         url: https://wiki.ubuntu.com/UncomplicatedFirewall
+        git: https://git.launchpad.net/ufw
         description: |
           The ufw (Uncomplicated Firewall) is a GUI application and CLI, that allows you to configure a firewall
           using `iptables` much more easily.
@@ -2505,6 +2533,7 @@ categories:
 
       - name: Shorewall
         url: https://shorewall.org
+        git: https://gitlab.com/shorewall/code
         icon: https://shorewall.org/favicon.ico
         openSource: true
         followWith: Hardware
@@ -2514,6 +2543,7 @@ categories:
 
       - name: OPNSense
         url: https://opnsense.org
+        github: opnsense/core
         followWith: Hardware
         openSource: true
         icon: https://opnsense.org/wp-content/themes/OPNsense/assets/ico/favicon.png
@@ -3160,6 +3190,7 @@ categories:
 
       - name: NextCloud
         url: https://nextcloud.com
+        github: nextcloud/server
         icon: https://nextcloud.com/c/uploads/2022/03/favicon.png
         followWith: Web, Windows, Mac, Linux, Android, iOS
         tosdrId: 707
@@ -3302,6 +3333,7 @@ categories:
 
       - name: Peergos
         url: https://peergos.org/
+        github: Peergos/Peergos
         androidApp: peergos.android
         description: |
           A peer-to-peer end-to-end encrypted global filesystem with fine grained access control. Provides a secure
@@ -3311,6 +3343,7 @@ categories:
 
       - name: Internxt
         url: https://internxt.com/
+        github: internxt/drive-desktop
         icon: https://internxt.com/favicon.ico
         tosdrId: 4176
         androidApp: com.internxt.cloud
@@ -3322,6 +3355,7 @@ categories:
 
       - name: FileN
         url: https://filen.io/
+        github: FilenCloudDienste/filen-desktop
         tosdrId: 6820
         androidApp: io.filen.app
         iosApp: https://apps.apple.com/us/app/filen-cloud-storage/id1549224518
@@ -3331,6 +3365,7 @@ categories:
 
       - name: Koofr
         url: https://koofr.eu
+        github: koofr/vault
         androidApp: net.koofr.app
         iosApp: https://apps.apple.com/us/app/koofr/id714802401
         description: |
@@ -3391,6 +3426,7 @@ categories:
       services:
       - name: FileSend
         url: https://filesend.standardnotes.org
+        github: standardnotes/FileSend
         followWith: Web
         description: |
           Simple, encrypted file sharing, with a 500mb limit and 5-day retention. Files are secured with client-side AES-256
@@ -3555,6 +3591,7 @@ categories:
       services:
       - name: VirtualBox
         url: https://www.virtualbox.org
+        github: VirtualBox/virtualbox
         icon: https://www.virtualbox.org/favicon.ico
         openSource: true
         description: |
@@ -3564,6 +3601,7 @@ categories:
 
       - name: Xen Project
         url: https://xenproject.org
+        git: https://xenbits.xen.org/gitweb/?p=xen.git;a=summary
         icon: https://gitlab.com/uploads/-/system/group/avatar/1147069/pngegg.png?width=48
         openSource: true
         followWith: Servers
@@ -3608,6 +3646,7 @@ categories:
       services:
       - name: SeaHorse
         url: https://wiki.gnome.org/Apps/Seahorse
+        git: https://gitlab.gnome.org/GNOME/seahorse
         icon: https://wiki.gnome.org/Apps/Seahorse?action=AttachFile&do=get&target=seahorse-icon.png
         openSource: true
         followWith: Linux/ GNOME
@@ -3616,6 +3655,7 @@ categories:
 
       - name: Kleopatra
         url: https://apps.kde.org/kleopatra
+        git: https://invent.kde.org/pim/kleopatra
         icon: https://apps.kde.org/app-icons/org.kde.kleopatra.svg
         openSource: true
         followWith: Linux/ KDE
@@ -3634,6 +3674,7 @@ categories:
 
       - name: GPG Suite
         url: https://gpgtools.org
+        github: GPGTools/GPGTools_Installer
         followWith: MacOS
         icon: https://gpgtools.org/favicon-152.png
         description: |
@@ -3799,6 +3840,7 @@ categories:
 
       - name: shred
         url: https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html
+        git: https://git.savannah.gnu.org/cgit/coreutils.git
         followWith: Unix
         openSource: true
         icon: https://www.gnu.org/favicon.ico
@@ -3880,6 +3922,7 @@ categories:
 
       - name: AXP.OS
         url: https://axpos.org
+        git: https://git.disroot.org/AXP.OS
         icon: https://axpos.org/favicon.svg
         description: |
           AXP.OS is an operating system based on AOSP & LineageOS. Emerged from the discontinued
@@ -3928,6 +3971,7 @@ categories:
       services:
       - name: Qubes OS
         url: https://www.qubes-os.org/
+        github: QubesOS/qubes-issues
         followWith: containerized apps
         tosdrId: 2258
         description: |
@@ -3938,6 +3982,7 @@ categories:
 
       - name: Whonix
         url: https://www.whonix.org/
+        github: Whonix/derivative-maker
         followWith: VM
         description: |
           Whonix is an anonymous operating system, which can run in a VM, inside your current OS. It is the best way to
@@ -3947,6 +3992,7 @@ categories:
 
       - name: Tails
         url: https://tails.boum.org/
+        git: https://gitlab.tails.boum.org/tails/tails
         followWith: live
         description: |
           Tails is a live operating system (so you boot into it from a USB, instead of installing). It preserves your
@@ -3956,6 +4002,7 @@ categories:
 
       - name: Parrot
         url: https://www.parrotsec.org/
+        git: https://gitlab.com/parrotsec
         followWith: security
         tosdrId: 8267
         description: |
@@ -3967,6 +4014,7 @@ categories:
 
       - name: Alpine Linux
         url: https://www.alpinelinux.org/
+        git: https://gitlab.alpinelinux.org/alpine
         followWith: Docker
         description: |
           Alpine is a security-oriented, lightweight distro based on musl libc and busybox. It compiles all user-space
@@ -4080,6 +4128,7 @@ categories:
 
       - name: Gufw
         url: https://man.archlinux.org/man/gufw.8.en
+        github: costales/gufw
         followWith: Linux
         description: |
           Open source GUI firewall for Linux, allowing you to block internet access for certain applications. Supports both simple
@@ -4100,11 +4149,13 @@ categories:
 
       - name: Snort
         url: https://www.snort.org
+        github: snort3/snort3
         description: |
           Open source intrusion prevention system capable of real-time traffic analysis and packet logging.
 
       - name: BleachBit
         url: https://www.bleachbit.org
+        github: bleachbit/bleachbit
         description: |
           Clears cache and deletes temporary files very effectively. This frees up disk space, improves performance, but most
           importantly helps to protect privacy.
@@ -4206,6 +4257,7 @@ categories:
 
       - name: BleachBit
         url: https://www.bleachbit.org
+        github: bleachbit/bleachbit
         icon: https://www.bleachbit.org/sites/default/files/zen_classic_logo_0.png
         description: |
           Clears cache and deletes temporary files very effectively.
@@ -4292,6 +4344,7 @@ categories:
       services:
       - name: ClamAV
         url: https://www.clamav.net
+        github: Cisco-Talos/clamav
         icon: https://www.clamav.net/assets/clamav-trademark.png
         description: |
           An open source cross-platform antivirus engine for detecting viruses, malware & other malicious threats. It is versatile, performant and very effective.
@@ -4328,6 +4381,7 @@ categories:
       services:
       - name: SourceHut
         url: https://sourcehut.org
+        git: https://git.sr.ht/~sircmpwn/git.sr.ht
         icon: https://sr.ht/static/logo.svg
         tosdrId: 1607
         description: |
@@ -4335,6 +4389,7 @@ categories:
 
       - name: Codeberg
         url: https://codeberg.org
+        codeberg: forgejo/forgejo
         icon: https://codeberg.org/assets/img/favicon.svg
         tosdrId: 3370
         description: |
@@ -4342,17 +4397,20 @@ categories:
 
       - name: GitLab
         url: https://gitlab.com
+        git: https://gitlab.com/gitlab-org/gitlab
         tosdrId: 514
         description: |
           Fully-featured git, CI and project management platform. Managed instance available, but can also be self-hosted.
 
       - name: Gitea
         url: https://gitea.io/
+        github: go-gitea/gitea
         description: |
           Lightweight self-hosted git platform, written in Go.
 
       - name: Gogs
         url: https://gogs.io/
+        github: gogs/gogs
         description: |
           Lightweight self-hosted git platform, written in Go.
 
@@ -4539,6 +4597,7 @@ categories:
 
       - name: CryptoSteel
         url: https://cryptosteel.com/how-it-works
+        github: cryptosteel/cryptosteel
         description: |
           A steel plate, with engraved letters which can be permanently screwed - CryptoSteel is a good fire-proof, shock-proof, water-proof, and stainless cryptocurrency backup solution.
         followWith: All Coins
@@ -4569,6 +4628,7 @@ categories:
       services:
       - name: Bisq
         url: https://bisq.network
+        github: bisq-network/bisq
         description: |
           An open-source, peer-to-peer application that allows you to buy and sell
           cryptocurrencies in exchange for national currencies. Fully decentralized,
@@ -4818,6 +4878,7 @@ categories:
           load during video streaming. Supports self-hosting or joining existing instances,
           enabling video viewing from any PeerTube server.
         url: https://joinpeertube.org
+        github: Chocobozzz/PeerTube
         tosdrId: 1596
 
       - name: DTube
@@ -4825,6 +4886,7 @@ categories:
           A decentralized, ad-free video platform emphasizing minimal moderation. It rewards
           users with cryptocurrency, leveraging blockchain technology.
         url: https://d.tube
+        github: dtube/dtube
         tosdrId: 2798
 
       wordOfWarning: |
@@ -4918,6 +4980,7 @@ categories:
           A web-based news feed reader and aggregator, supporting RSS/Atom feeds. It's free, open source,
           and offers a customizable and self-hostable platform for managing your news feeds.
         url: https://tt-rss.org
+        github: tt-rss/tt-rss
 
     - name: Proxy Sites
       intro: |
@@ -4933,6 +4996,7 @@ categories:
           It's free, open source, lightweight, supports multiple themes, and offers customizable RSS feeds.
           All client requests are proxied, enhancing privacy. No JavaScript required.
         url: https://nitter.net
+        github: zedeus/nitter
         followWith: Twitter
 
       - name: Invidious
@@ -4941,6 +5005,7 @@ categories:
           integrates Reddit comments, and offers advanced playback options. Lightweight and can function without
           JavaScript. Supports import/export of subscriptions and feed customization.
         url: https://invidious.io
+        github: iv-org/invidious
         followWith: YouTube
         tosdrId: 1471
 
