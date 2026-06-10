@@ -29,6 +29,7 @@ import { fetchPlexusInfo } from '@utils/fetch-plexus-info';
 import { fetchDiscordInfo } from '@utils/fetch-discord-info';
 import { fetchRedditInfo } from '@utils/fetch-reddit-info';
 import { site } from '@utils/config';
+import { apiBase, serviceSlug } from '@utils/api-config';
 import Button from '@components/form/Button.astro';
 
 interface Props extends Service {
@@ -233,7 +234,7 @@ const catSlug = slugify(categoryName);
 const secSlug = slugify(parentSection.name);
 
 const getApiEndpoint = () => {
-	return `https://api.awesome-privacy.xyz/${catSlug}/${secSlug}/${slugify(name)}`;
+	return `${apiBase}/v1/services/${serviceSlug(name)}`;
 };
 
 const makeSoftwareSchema = () => {
@@ -387,7 +388,7 @@ const makeSoftwareSchema = () => {
 			<pre><a href={getApiEndpoint()}><code>{getApiEndpoint()}</code></a></pre>
 			<p>
 				The REST API is free, no-auth and CORS-enabled. To learn more, view the <a
-					href="/api">Swagger Docs</a
+					href={`${apiBase}/docs`}>API Docs</a
 				> or read the <a href="/about#api">API Usage Guide</a>.
 			</p>
 		</section>

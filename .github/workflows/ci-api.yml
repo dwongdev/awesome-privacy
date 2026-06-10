@@ -29,7 +29,7 @@ jobs:
           persist-credentials: false
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: latest
+          bun-version: 1.3.10
       - run: bun install --frozen-lockfile
       - run: bun run lint
 
@@ -45,7 +45,7 @@ jobs:
           persist-credentials: false
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: latest
+          bun-version: 1.3.10
       - run: bun install --frozen-lockfile
       - run: bun run format:check
 
@@ -61,7 +61,7 @@ jobs:
           persist-credentials: false
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: latest
+          bun-version: 1.3.10
       - run: bun install --frozen-lockfile
       - run: bun run build:data
       - run: bun run typecheck
@@ -78,7 +78,7 @@ jobs:
           persist-credentials: false
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: latest
+          bun-version: 1.3.10
       - run: bun install --frozen-lockfile
       - run: bun run build:data
       - run: bun run test
@@ -95,7 +95,7 @@ jobs:
           persist-credentials: false
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: latest
+          bun-version: 1.3.10
       - run: bun install --frozen-lockfile
       - run: bun run build
       - name: Verify bundle output
@@ -113,14 +113,15 @@ jobs:
           persist-credentials: false
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: latest
+          bun-version: 1.3.10
       - run: bun install --frozen-lockfile
       - run: bun run smoke
 
   docker-smoke:
     name: 🐳 Docker Smoke
     runs-on: ubuntu-latest
-    continue-on-error: true
+    outputs:
+      result: ${{ steps.run.outcome }}
     defaults:
       run:
         working-directory: api
@@ -129,6 +130,8 @@ jobs:
         with:
           persist-credentials: false
       - name: Build and run container
+        id: run
+        continue-on-error: true
         run: bash tests/docker-smoke.sh
         timeout-minutes: 10
 
@@ -212,5 +215,8 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
           for job in $(echo "$NEEDS" | jq -r 'keys[]'); do
             result=$(echo "$NEEDS" | jq -r --arg j "$job" '.[$j].result')
+            if [ "$job" = docker-smoke ]; then
+              result=$(echo "$NEEDS" | jq -r '."docker-smoke".outputs.result // "skipped"')
+            fi
             echo "| $(label "$job") | $(status "$result" "$job") |" >> "$GITHUB_STEP_SUMMARY"
           done

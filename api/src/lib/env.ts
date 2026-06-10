@@ -14,6 +14,7 @@ export const readEnv = (workersEnv?: Partial<AppEnv>): AppEnv => {
     APIVOID_API_KEY: workersEnv?.APIVOID_API_KEY ?? env.APIVOID_API_KEY,
     EXODUS_TOKEN: workersEnv?.EXODUS_TOKEN ?? env.EXODUS_TOKEN,
     GITHUB_TOKEN: workersEnv?.GITHUB_TOKEN ?? env.GITHUB_TOKEN,
+    DOCKERHUB_TOKEN: workersEnv?.DOCKERHUB_TOKEN ?? env.DOCKERHUB_TOKEN,
     CACHE: workersEnv?.CACHE,
     RATE_LIMIT: workersEnv?.RATE_LIMIT,
     API_BASE: workersEnv?.API_BASE ?? env.API_BASE,

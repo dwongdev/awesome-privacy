@@ -1,7 +1,13 @@
 name = "awesome-privacy-api"
 main = "src/index.workers.ts"
-compatibility_date = "2025-01-01"
+compatibility_date = "2026-05-01"
 compatibility_flags = ["nodejs_compat"]
+
+# Only reachable via the custom domain, not a *.workers.dev subdomain
+workers_dev = false
+
+# Readable stack traces in observability logs
+upload_source_maps = true
 
 # Custom domain, auto-creates the DNS record on deploy
 [[routes]]
@@ -26,3 +32,8 @@ crons = ["*/15 * * * *"]
 
 [vars]
 API_BASE = "https://api.awesome-privacy.xyz"
+
+# Allow observability
+[observability.logs]
+enabled = true
+invocation_logs = true

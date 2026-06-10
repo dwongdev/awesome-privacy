@@ -101,7 +101,7 @@ export const buildApp = () => {
 <summary>Authenticating</summary>
 
 By default, no auth is needed.
-If you're self-hosting, you can enable auth by setting the \`API_KEY\` env var.
+If you're self-hosting, you can enable auth by setting the \`API_TOKEN\` env var.
 Then, add the \`Authorization: Bearer <your-token>\` header when accessing the enrichment endpoints.
 </details>
 
