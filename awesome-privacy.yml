@@ -5076,9 +5076,25 @@ categories:
     - name: Video Players
       alternativeTo: ['vlc', 'windows media player', 'quicktime', 'mplayer', 'kmplayer']
       services: []
+
     - name: Photo Viewers
       alternativeTo: ['google photos', 'windows photo viewer', 'adobe lightroom', 'apple photos', 'irfanview']
-      services: []
+      services:
+      - name: Immich
+        url: https://immich.app
+        icon: https://avatars.githubusercontent.com/u/109746326?s=256&v=4
+        openSource: true
+        followWith: Self-hosted
+        github: immich-app/immich
+        iosApp: https://apps.apple.com/us/app/immich/id1613945652
+        androidApp: app.alextran.immich
+        discordInvite: cHD2af9DbA
+        subreddit: immich
+        description: |
+          Self-hosted photo and video backup and management server, with automatic
+          mobile upload, timeline view, albums, search and facial recognition.
+          Needs to be self-hosted, but gives you full ownership + control over your photos.
+
     - name: E-Book Readers
       alternativeTo: ['kindle', 'google play books', 'apple books', 'adobe digital editions', 'calibre']
       services: []
