@@ -5101,9 +5101,21 @@ categories:
     - name: Podcast Players
       alternativeTo: ['apple podcasts', 'spotify', 'google podcasts', 'pocket casts', 'overcast']
       services: []
+
     - name: Torrent Downloaders
       alternativeTo: ['utorrent', 'bittorrent', 'qBittorrent', 'deluge', 'transmission']
-      services: []
+      services:
+      - name: qBittorrent
+        url: https://www.qbittorrent.org
+        icon: https://avatars.githubusercontent.com/u/2131270?s=256&v=4
+        openSource: true
+        github: qbittorrent/qBittorrent
+        discordInvite: aCmFVmk
+        description: |
+          A cross-platform BitTorrent client with built-in torrent search, RSS feeds, and an optional web interface.
+          It contains no ads or bundled software.
+          As with any BitTorrent client, your IP address is visible to the peers and trackers you connect to.
+
     - name: File Converters
       alternativeTo: ['format factory', 'handbrake', 'freemake video converter', 'any video converter', 'online-convert.com']
       services:
