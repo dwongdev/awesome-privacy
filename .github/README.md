@@ -108,7 +108,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [News Readers](#news-readers) (1)
 	- [Proxy Sites](#proxy-sites) (4)
 - **Media**
-	- [Photo Management](#photo-management) (1)
+	- [Photo Management](#photo-management) (2)
 	- [Torrent Downloaders](#torrent-downloaders) (1)
 	- [File Converters](#file-converters) (2)
 - **Creativity**
@@ -2170,6 +2170,7 @@ TikTok, and more.*
 ### Photo Management
 
 - **[<img src='https://avatars.githubusercontent.com/u/109746326?s=256&v=4' width='14' alt='' /> Immich](https://immich.app)** - Self-hosted photo and video backup and management server, with automatic mobile upload, timeline view, albums, search and facial recognition. Needs to be self-hosted, but gives you full ownership + co[…](https://awesome-privacy.xyz/media/photo-management/immich "View full Immich report") 
+- **[<img src='https://ente.com/assets/ente-photos-icon-transparent.png' width='14' alt='' /> Ente Photos](https://ente.com)** - Provides an open source, audited end-to-end encrypted platform to store photos in the cloud without needing to trust the service provider. With apps for desktop, web and mobile, album sharing, public[…](https://awesome-privacy.xyz/media/photo-management/ente-photos "View full Ente Photos report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 

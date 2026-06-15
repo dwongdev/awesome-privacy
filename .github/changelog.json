@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T13:12:10Z",
+  "generatedAt": "2026-06-15T15:19:24Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -89,6 +89,7 @@
     "83d9c485c292abc9089bdc807f34fb5367437729",
     "8428fdce3364820f6e573852b30c28b9050ed83f",
     "843a49181fb47e1800953fd8b1b5b65ff8041454",
+    "8735336d7f209fa22305fc1fbf160280f5af5c17",
     "874dbdacae9c71cea100c85dc2b05bd348d20173",
     "88bc6299bfbaf786e134238c45ac4d9a6aa7de24",
     "88c0cb324458962c52691a05384aab459bf740b2",
@@ -272,9 +273,33 @@
     610,
     611,
     613,
-    619
+    619,
+    625
   ],
   "entries": [
+    {
+      "date": "2026-06-15",
+      "sha": "8735336d7f209fa22305fc1fbf160280f5af5c17",
+      "pr": {
+        "number": 626,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/626",
+        "author": "ltguillaume",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/4777345?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "Ente Photos",
+              "category": "Media",
+              "section": "Photo Management"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-06-15",
       "sha": "568caa66a0f11307a49c648beacb7c1b2a746160",
