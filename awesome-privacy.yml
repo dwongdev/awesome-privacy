@@ -5333,7 +5333,20 @@ categories:
 
     - name: Screenshot Tools
       alternativeTo: ['snagit', 'greenshot', 'lightshot', 'gyazo', 'sharex']
-      services: []
+      services:
+      - name: ShareX
+        followWith: Windows
+        url: https://getsharex.com
+        icon: https://avatars.githubusercontent.com/u/5548736?s=256&v=4
+        openSource: true
+        github: ShareX/ShareX
+        tosdrId: 3579
+        discordInvite: sharex
+        subreddit: sharex
+        description: |
+          Open-source screen-capture tool for Windows.
+          Takes screenshots and short screen recordings, with annotation, OCR, a colour picker, and configurable save/upload destinations.
+          Note that (if configured) it can interop with non-private services for upload, like Imgur, Google, etc.
 
     - name: 3D Graphics
       alternativeTo: ['blender', 'autodesk maya', 'cinema 4d', '3ds max', 'sketchup']
