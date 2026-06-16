@@ -1348,7 +1348,9 @@ categories:
         openSource: true
         description: |
           Blocks invisible trackers, in order to stop advertisers and other third-parties
-          from secretly tracking where you go and what pages you look at. **Download**:
+          from secretly tracking where you go and what pages you look at.
+          Less configurable but simpler than uBlock, and focuses on trackers only without blocking ads.
+          **Download**:
           [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp) -
           [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/privacy-badger17/)
 
