@@ -93,6 +93,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Developer Tools](#developer-tools) (3)
 - **Smart Home & IoT**
 	- [Smart Home](#smart-home) (1)
+	- [Security Cameras](#security-cameras) (1)
 - **Finance**
 	- [Cryptocurrencies](#cryptocurrencies) (2)
 	- [Crypto Wallets](#crypto-wallets) (7)
@@ -1774,6 +1775,14 @@ human voice interface while also protecting your privacy and security
 ### Smart Home
 
 - **[<img src='https://avatars.githubusercontent.com/u/7365162?s=200&v=4' width='14' alt='' /> Gladys Assistant](https://gladysassistant.com/)** - An open source privacy-respecting Home Assistant, compatible with a wide range of devices including Raspberry Pi, desktop computers, or NAS systems. Actively developed, with good french community and[…](https://awesome-privacy.xyz/smart-home-and-iot/smart-home/gladys-assistant "View full Gladys Assistant report") 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
+### Security Cameras
+
+- **[<img src='https://avatars.githubusercontent.com/u/271067237?s=400&u=183f42b70679974bfd5b7e0ad0bd12aee0b45d98&v=4' width='14' alt='' /> Secluso](https://secluso.com)** - An open source, end-to-end encrypted home security camera solution (Pi Zero 2W). Easy to setup with GUI deploy tool. Fully E2EE remote access (live streaming & smart motion alerts) via mobile app and[…](https://awesome-privacy.xyz/smart-home-and-iot/security-cameras/secluso "View full Secluso report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 

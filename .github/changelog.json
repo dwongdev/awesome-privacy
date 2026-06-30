@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T06:48:50Z",
+  "generatedAt": "2026-06-30T19:49:24Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -52,6 +52,7 @@
     "4313ea5f7d58117889174d4d02f64127fa670dc9",
     "4396c163483fe7aaecb54e719ee5f3df690e146b",
     "45a87356b37a54a2d289d5018bdbcb5a56575a02",
+    "45c13a7ff5af259b895a833e785e3f4a56b46a97",
     "463d62190462ca5dfdf71fa72234a10e6dbcdd48",
     "474de7b56c37fb9bf8991fcc3e42df91acc74049",
     "47cd53ef705bb9ae855e521bc68c0597b14f7325",
@@ -227,6 +228,7 @@
     479,
     482,
     483,
+    487,
     488,
     489,
     491,
@@ -285,9 +287,48 @@
     625,
     629,
     634,
-    637
+    637,
+    640,
+    641,
+    642,
+    643,
+    644,
+    646,
+    647,
+    648,
+    649
   ],
   "entries": [
+    {
+      "date": "2026-06-30",
+      "sha": "45c13a7ff5af259b895a833e785e3f4a56b46a97",
+      "pr": {
+        "number": 599,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/599",
+        "author": "jkaczman",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/56416816?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "Secluso",
+              "category": "Smart Home & IoT",
+              "section": "Security Cameras"
+            }
+          ]
+        },
+        "sections": {
+          "added": [
+            {
+              "name": "Security Cameras",
+              "category": "Smart Home & IoT"
+            }
+          ]
+        },
+        "categories": {}
+      }
+    },
     {
       "date": "2026-06-20",
       "sha": "b677c2f52c1f2606eddecca0ffc6524339aa0dbc",
@@ -5934,6 +5975,86 @@
   ],
   "rejections": [
     {
+      "date": "2026-06-30",
+      "title": "Add AI Notebook (offline, local NotebookLM alternative)",
+      "pr": {
+        "number": 648,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/648",
+        "author": "lukoplt",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/29163780?v=4"
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Add captchaapi to Developer Tools",
+      "pr": {
+        "number": 647,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/647",
+        "author": "rajtik76",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/12937708?v=4"
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "title": "Add VidKit in Creativity ▸ Video Editors",
+      "pr": {
+        "number": 646,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/646",
+        "author": "TondaRuzicka",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/969804?v=4"
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "title": "Adds VirtualSMS to Virtual Phone Numbers",
+      "pr": {
+        "number": 644,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/644",
+        "author": "VirtualSMSLabs",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/252482132?v=4"
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "title": "Add Floe to File Drop",
+      "pr": {
+        "number": 643,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/643",
+        "author": "jannskiee",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/108071426?v=4"
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "title": "Add Vexyn — privacy-first browser tools (Online Tools)",
+      "pr": {
+        "number": 642,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/642",
+        "author": "andreicristi88",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/277826898?v=4"
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "title": "Add MirrorNotes to Digital Notes — on-device AI journaling for iOS",
+      "pr": {
+        "number": 641,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/641",
+        "author": "lokii49",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/37953290?v=4"
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Add BibaVPN to proxies",
+      "pr": {
+        "number": 640,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/640",
+        "author": "Eljaja",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/15385141?v=4"
+      }
+    },
+    {
       "date": "2026-06-19",
       "title": "Adds gitGost to developer utils",
       "pr": {
@@ -6461,6 +6582,16 @@
         "url": "https://github.com/Lissy93/awesome-privacy/pull/488",
         "author": "momenbasel",
         "authorAvatar": "https://avatars.githubusercontent.com/u/8724766?v=4"
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Update Element entry to Element X",
+      "pr": {
+        "number": 487,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/487",
+        "author": "yncyrydybyl",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/104430?v=4"
       }
     },
     {
